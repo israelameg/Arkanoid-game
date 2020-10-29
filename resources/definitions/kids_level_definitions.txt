@@ -1,0 +1,79 @@
+
+# Level 1
+# Single block direct hit
+
+START_LEVEL
+level_name:Fireman Sam
+ball_velocities:0,6
+background:image(background_images/sami.jpg)
+paddle_speed:15
+paddle_width:160
+block_definitions:definitions/‏‏sami_block_definitions.txt
+blocks_start_x:20
+blocks_start_y:250
+row_height:25
+num_blocks:5
+START_BLOCKS
+-rr-
+r--r
+r--
+-r--
+--r-
+---r
+r--r
+-rr-
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Bob The Builder
+ball_velocities:-60,5 -45,5 -30,5 -15,5 15,5 30,5 45,5 60,5
+background:image(background_images/bob.jpg)
+paddle_speed:5
+paddle_width:400
+block_definitions:definitions/‏‏bob_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+-
+-
+-
+-
+-
+byrbyrbyrbyrbyr
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# the moon with different block definitions
+
+START_LEVEL
+level_name:Teletubbies
+ball_velocities:45,6
+background:image(background_images/teletubbies.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/moon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:4
+START_BLOCKS
+--ll--
+--ll--
+END_BLOCKS
+END_LEVEL
